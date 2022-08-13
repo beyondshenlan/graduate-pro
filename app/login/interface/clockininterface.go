@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	pb "api/login/interface/v1"
+	pb "graduate-pro/api/login/interface/v1"
 )
 
 type ClockinInterfaceService struct {

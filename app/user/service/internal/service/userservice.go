@@ -3,7 +3,7 @@ package service
 import (
 	"context"
 
-	pb "api/user/v1"
+	pb "graduate-pro/api/user/v1"
 )
 
 type UserServiceService struct {

@@ -20,16 +20,6 @@ service ClockinInterface {
 			body: "*"
 		};
 	};
-	rpc ClockinOnWork(ClockinOnWorkRequest) returns (ClockinOnWorkReply) {
-		option (google.api.http) = {
-			get: "/api/login/v1/onwork"
-		};
-	};
-	rpc ClockinOffWork(ClockinOffWorkRequest) returns (ClockinOffWorkReply) {
-		option (google.api.http) = {
-			get: "/api/login/v1/offwork"
-		};
-	};
 }
 
 message RegisterRequest {
