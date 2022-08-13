@@ -22,23 +22,23 @@
 
 - 并发的使用（errgroup 的并行链路请求）
 
-  具体体现在[statistics-service]部分
+  具体体现在[#statistics-service]部分
 
 - 微服务中间件的使用（ELK、Opentracing、Prometheus、Kafka）
     <br>
 
 - 缓存的使用优化（一致性处理、Pipeline 优化）
 
-  具体体现在[statistics-service]的查询用户统计部分
+  具体体现在[#statistics-service]的查询用户统计部分
 
 ## 项目设定
 
-实现一个简单的打卡引用，包含以下内容
-
-* 管理端
-  * 查看指定用户注册和登入统计
+实现一个登入应用，包含以下内容
 * 一般用户
   * 注册与登录
+* 管理端
+  * 查看指定用户注册和登入统计
+
 
 
 
