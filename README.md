@@ -152,7 +152,7 @@ api/login/interface/
 
 * 查询指定用户指定日期登入记录
 
-  这里采取了并行请求的模式，每次请求的内容为单个用户的多个日期的工时记录，使用errgroup来统一管理错误信息，实现如下
+  这里采取了并行请求的模式，每次请求的内容为单个用户的多个日期的登入记录，使用errgroup来统一管理错误信息，实现如下
 
 ```go
 func (uc *ClockinUsecase) GetTime(ctx context.Context, user []int64, day []int64) ([]*UserTime, error) {
